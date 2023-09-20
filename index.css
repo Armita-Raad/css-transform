@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    
 }
 body{
     background-color: rgb(245, 236, 215);
@@ -15,7 +15,7 @@ body{
 }
 .appearance{
 width: 220px;
-/* z-index: 1; */
+
 height: 120px;
 background-color: white;
 margin: 1rem;
@@ -77,21 +77,17 @@ transform: skewY(45deg);
     transform: translateX(3rem);
 }
 .second{
-    /* display: flex;
-    justify-content: center; */
+    
     display: flex;
     justify-content: center ;
     margin:0 3rem;
-    /* margin-bottom: 0; */
+    
     flex-wrap: wrap;
-    /* margin:1rem 3rem; */
-    /* margin-top: 0; */
+   
     
 }
 .third{
-    /* display: flex;
-    justify-content: center; */
-    /* margin-top: -1rem; */
+    
     display: flex;
     justify-content: center ;
     margin:0 3rem;
@@ -99,7 +95,7 @@ transform: skewY(45deg);
     flex-wrap: wrap;
 }
 .box-11:hover{
-    transform: translateY(rem);
+    transform: translateY(2rem);
 }
 .box-12:hover{
     transform: skewY(45deg) scale(2) translate( 1.7rem,-1rem);
