@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: rgb(245, 236, 215);
+}
+.first{
+    display: flex;
+    justify-content: center ;
+    margin:2rem 3rem;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+.appearance{
+width: 220px;
+/* z-index: 1; */
+height: 120px;
+background-color: white;
+margin: 1rem;
+position: relative;
+
+}
+
+.purple{
+    background-color: rgb(213, 181, 245, 0.8);
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin:5px 55px;
+    align-items: center;
+    transition: ease-in-out 1s;
+    z-index: 10;
+    position: absolute;
+}
+.gray{
+    background-color: gray;
+    position: absolute;
+    margin:5px 55px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+
+}
+.box-1:hover{
+    transform: rotate(45deg);
+    transform-origin: center;
+    
+}
+.box-2:hover{
+    transform: rotateX(45deg);
+}
+.box-3:hover{
+    transform: rotateY(45deg);
+}
+.box-4:hover{
+    transform: scale(1.5);
+}
+.box-5:hover{
+    transform: scaleX(2);
+}
+.box-6:hover{
+    transform: scaleY(2);
+}
+.box-7:hover{
+    transform: skewX(45deg);
+}
+.box-8:hover{
+transform: skewY(45deg);
+}
+.box-9:hover{
+    transform: translate(3rem, 0.6rem);
+}
+.box-10:hover{
+    transform: translateX(3rem);
+}
+.second{
+    /* display: flex;
+    justify-content: center; */
+    display: flex;
+    justify-content: center ;
+    margin:0 3rem;
+    /* margin-bottom: 0; */
+    flex-wrap: wrap;
+    /* margin:1rem 3rem; */
+    /* margin-top: 0; */
+    
+}
+.third{
+    /* display: flex;
+    justify-content: center; */
+    /* margin-top: -1rem; */
+    display: flex;
+    justify-content: center ;
+    margin:0 3rem;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+.box-11:hover{
+    transform: translateY(rem);
+}
+.box-12:hover{
+    transform: skewY(45deg) scale(2) translate( 1.7rem,-1rem);
+    
+}
+.box-13:hover{
+    transform: perspective(100px) rotateX(40deg);
+}
+.box-14:hover{
+    transform: perspective(100px) rotateY(40deg);
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 3rem;
+    margin-bottom: 4rem;
+}
+.box-15:hover{
+    
+  transform: rotate(40deg);
+}
+.lolo{
+    transform-origin: top right;
+}
+.box-16:hover{
+    transform: rotate(40deg);
+}
+.lala{
+    transform-origin: bottom left;
+}
+.box-17:hover{
+    transform: perspective(100px) rotateX(40deg);
+}
+.tata{
+    transform-origin: center bottom;
+}
+.box-18:hover{
+    
+    transform: perspective(200px) rotateX(30deg);
+
+}
+.tete{
+    transform-origin: center top;
+}
+.box-19:hover{
+    transform: perspective(100px) rotateY(20deg);
+}
+.titi{
+    transform-origin: center left;
+}
+.box-20:hover{
+    transform: perspective(250px) rotateY(60deg);
+}
+.toto{
+    transform-origin: center right;
+}
+.box-21:hover{
+    transform: scale(2);
+}
+.haha{
+    transform-origin: top right;
+}
+.hoho{
+    transform-origin: bottom left;
+}
+.box-23:hover{
+    transform: scaleX(2);
+}
+.box-25:hover{
+    transform: scaleY(1.5);
+}
+.gigi{
+    transform-origin: top;
+}
+.gaga{
+    transform-origin: bottom;
+}
